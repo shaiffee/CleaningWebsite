@@ -729,7 +729,7 @@
     if (menuBtn && mobileMenu) {
       menuBtn.addEventListener('click', () => {
         const open = mobileMenu.classList.toggle('open');
-        menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        menuBtn.setAttribute('aria-expanded', open ? 'true':'false');
       });
       // close menu on click
       mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
