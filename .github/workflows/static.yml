@@ -89,23 +89,23 @@
       color:var(--text);
       font-weight:700;
       cursor:pointer;
-      transition: transform .12s ease, background .2s ease, border-color .2s ease;
+      transition:transform .12s ease, background .2s ease, border-color .2s ease;
       user-select:none;
       white-space:nowrap;
     }
-    .btn:hover{ transform: translateY(-1px); background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.18); }
+    .btn:hover{ transform:translateY(-1px); background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.18); }
     .btn.primary{
       background:linear-gradient(135deg, rgba(93,214,198,.95), rgba(122,167,255,.95));
       color:#07101f;
       border-color:transparent;
     }
-    .btn.primary:hover{ transform: translateY(-1px) scale(1.01); }
+    .btn.primary:hover{ transform:translateY(-1px) scale(1.01); }
 
     .hamburger{ display:none; }
 
     /* Hero */
     .hero{
-      padding: 56px 0 26px;
+      padding:56px 0 26px;
     }
     .hero-grid{
       display:grid;
@@ -128,13 +128,13 @@
       align-items:center;
       padding:8px 12px;
       border:1px solid rgba(255,255,255,.14);
-      border-radius: 999px;
-      color: var(--muted);
+      border-radius:999px;
+      color:var(--muted);
       background:rgba(255,255,255,.04);
       font-weight:700;
-      font-size: 13px;
+      font-size:13px;
     }
-    h1{ margin:14px 0 10px; font-size: clamp(30px, 4vw, 46px); line-height: 1.08; }
+    h1{ margin:14px 0 10px; font-size:clamp(30px, 4vw, 46px); line-height:1.08; }
     .sub{
       color:var(--muted);
       font-size:16px;
@@ -142,21 +142,21 @@
       max-width:56ch;
     }
 
-    .hero-actions{ display:flex; flex-wrap:wrap; gap:12px; margin-top: 16px; }
+    .hero-actions{ display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; }
 
     .trust{
       display:flex; gap:14px; flex-wrap:wrap;
       margin-top:18px;
       color:var(--muted);
       font-weight:650;
-      font-size: 14px;
+      font-size:14px;
     }
     .pill{
       display:inline-flex; align-items:center; gap:10px;
-      padding: 10px 12px;
-      border-radius: 999px;
+      padding:10px 12px;
+      border-radius:999px;
       border:1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.03);
+      background:rgba(255,255,255,.03);
     }
 
     /* Right-side booking */
@@ -167,8 +167,8 @@
       box-shadow:var(--shadow);
       padding:22px;
     }
-    .booking h2{ margin: 0 0 8px; font-size: 18px; }
-    .booking p{ margin: 0 0 14px; color: var(--muted); font-size: 14px; }
+    .booking h2{ margin:0 0 8px; font-size:18px; }
+    .booking p{ margin:0 0 14px; color: var(--muted); font-size:14px; }
     form{ display:grid; gap:10px; }
 
     .row{ display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
