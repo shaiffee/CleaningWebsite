@@ -764,7 +764,7 @@
         const data = Object.fromEntries(new FormData(form).entries());
         // In a real site you would POST this to a backend or form provider.
         console.log(formId, data);
-        msg.textContent = "Thanks! We got your request. (Demo: nothing was sent.)";
+        msg.textContent = "Thanks! We got your request. (Demo:nothing was sent.)";
         form.reset();
       });
     }
